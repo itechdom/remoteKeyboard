@@ -1,0 +1,3 @@
+rootProject.name = 'remoteKeyboard'
+
+include ':app'
