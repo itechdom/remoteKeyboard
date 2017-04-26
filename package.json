@@ -8,7 +8,8 @@
     "start:cloud9": "node_modules/.bin/webpack-dev-server --port $PORT --host $IP",
     "start:node": "node ./src/node/index.js",
     "start:mongo": "./scripts/run-mongo.sh",
-    "start:node:dev": "nodemon ./src/node"
+    "start:node:dev": "nodemon ./src/node",
+    "start:electron":"electron ./src/electron/"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/itechdom/playground#readme",
   "dependencies": {
     "config": "^1.25.1",
+    "electron": "^1.6.6",
     "express": "^4.14.1",
     "express-graphql": "^0.6.3",
     "google-spreadsheets": "^0.5.1",
