@@ -75,7 +75,7 @@ class App extends React.Component {
     this.chat = this.chat.bind(this);
 
     //register socket connection
-    this.socket = io("http://localhost:3000");
+    this.socket = io("http://remote-keyboard-itechdom.c9users.io:8082");
   }
 
   componentDidMount(){

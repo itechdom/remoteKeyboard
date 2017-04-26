@@ -25,7 +25,7 @@ export default function auth({
       });
     });
 
-    server.listen(3000);
+    server.listen(8082);
 
     return apiRoutes;
 }

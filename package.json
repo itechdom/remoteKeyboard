@@ -1,5 +1,5 @@
 {
-  "name": "itechdom-playground",
+  "name": "remote-keyboard",
   "version": "1.0.0",
   "description": "A way to get up and running quickly with any programming task.",
   "main": "src/javascript/index.js",
